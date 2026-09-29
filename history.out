@@ -1,0 +1,38 @@
+    1  clear
+    2  history
+    3  clear
+    4  cat /etc/shadow
+    5  cp /bin/cat ~/catuser1
+    6  ls -l ~/catuser1 
+    7  ls -l ~/catuser1 
+    8  sudo chown root:root ~/catuser1 
+    9  sudo whoami
+   10  clear
+   11  sudo chown root:root ~/catuser1 
+   12  ls -l ~/catuser1 
+   13  sudo chmod u+s ~/catuser1 
+   14  ls -l ~/catuser1 
+   15  ~/catuser1 /etc/shadow
+   16  clear
+   17  touch ~/testfile
+   18  chown root:root ~/testfile 
+   19  cp /bin/chown ~/chownuser1
+   20  sudo chown root:root ~/chownuser1 
+   21  sudo chmod u+s ~/chownuser1 
+   22  ls -l ~/chownuser1 
+   23  ls -l ~/testfile 
+   24  ~/chownuser1 root:root ~/testfile 
+   25  ls -l ~/testfile 
+   26  clear
+   27  sudo visudo
+   28  clear
+   29  sudo visudo
+   30  date -s "2021-09-28 00:00:01" 
+   31  sudo date -s "2021-09-28 00:00:01" 
+   32  clear
+   33  history
+   34  clear
+   35  cd /home/user1/
+   36  ls
+   37  clear
+   38  history > ~/history.out
