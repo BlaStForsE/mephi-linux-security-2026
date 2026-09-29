@@ -1,4 +1,49 @@
-    1  clear
+vovi
+109  history
+  110  clear
+  111  sudo groupadd students
+  112  sudo useradd -u 1234 -m -G students user1
+  113  clear
+  114  id user1
+  115  sudo su
+  116  clear
+  117  history
+  118  clear
+  119  sudo passwd user1
+  120  clear
+  121  sudo chage -M 90 user1
+  122  id user1
+  123  clear
+  124  sudo chage -l user1
+  125  clear
+  126  sudo find / -perm -4000 2>/dev/null
+  127  history
+  128  clear
+  129  ps -eo pid,ruid,euid,comm
+  130  clear
+  131  echo "3.1"
+  132  cat /etc/shadow
+  133  cp /bin/cat ~/vovi-cat
+  134  ls -l ~/vovi-cat 
+  135  sudo chown root:root ~/vovi-cat 
+  136  ls -l ~/vovi-cat 
+  137  sudo chmod u+s ~/vovi-cat 
+  138  ls -l ~/vovi-cat 
+  139  ~/vovi-cat /etc/shadow
+  140  clear
+  141  su user1 
+  142  ls
+  143  pwd
+  144  ls -l
+  145  sudo ls
+  146  sudo cat history > /home/user1/historu.out
+  147  clear
+  148  history
+
+
+
+user1
+1  clear
     2  history
     3  clear
     4  cat /etc/shadow
